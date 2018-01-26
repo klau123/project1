@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/victoriaharbor9238.jpg");
+    background-size: cover;
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+}
+.nav{
+    text-align: right;
+
+}
+h1{
+    font-family: 'Risque', cursive;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 50px;
+}
+h3{
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+p{
+    font-family: 'Risque', cursive;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+}
+a{
+    font-family: 'Risque', cursive;
+    color: aliceblue;
+    background-color: slateblue;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    color: #CCCCCC;
+    height: 100%
+}
+.centerbox{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.mybtn{
+    background-color: deeppink;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.spaceTop{
+     padding-top: 50px;
+ }
+
+.spaceBottom{
+    padding-bottom: 50px;
+}
