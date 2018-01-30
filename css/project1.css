@@ -41,7 +41,7 @@ p{
     height: 700px;
     justify-content: center;
 }
-.abc {
+.frameimage {
     display: flex;
     justify-content: center;
 }
@@ -64,5 +64,9 @@ p{
 }
 .pagehead {
     text-align: center;
+    align-items: center;
+}
+.mylink {
+    display: flex;
     align-items: center;
 }
