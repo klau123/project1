@@ -8,13 +8,12 @@ h1{
     font-family: 'Risque', cursive;
     color: aliceblue;
     text-align: center;
-    padding: 15px;
     font-size: 80px;
+    padding-top: 80px;
+    justify-content: center;
+    display: block;
 }
-h3{
-    font-family: 'Lora', serif;
-    text-align: center;
-}
+
 p{
     font-family: 'Risque', cursive;
     color: aliceblue;
@@ -22,69 +21,48 @@ p{
     text-align: center;
     padding: 5px;
 }
-a{
+.nav{
     font-family: 'Risque', cursive;
-    color: aliceblue;
-    background-color: slateblue;
+    float: right;
+}
+
+.hklogo{
+    float: left;
+    height: 85px;
+    wide: 150px;
+    padding: 5px;
+}
+.placesimg {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1030px;
+    height: 700px;
+    justify-content: center;
+}
+.abc {
+    display: flex;
+    justify-content: center;
+}
+
+.attractions {
+    width: 500px;
+    height: 300px;
+    margin: 3px;
+}
+.navlink {
+    font-family: 'Risque', cursive;
+    padding: 5px;
     width: 150px;
     height: 50px;
     text-align: center;
     font-size: 20px;
-    padding: 5px;
-}
-img{
-    width: 200px;
-    height: 100px;
-    padding: 35px;
-}
-table {
-    font-family: 'Risque', cursive;
-    font-size: 16px;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #00ffffff;
-    text-align: left;
-    padding: 8px;
-    font-size: 16px;
+    background-color: slateblue;
     color: aliceblue;
+
 }
-.container{
-    color: #CCCCCC;
-    height: 100%
-}
-.centerbox{
+.pagehead {
     text-align: center;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-}
-.mybtn{
-    background-color: deeppink;
-    width: 150px;
-    height: 50px;
-    text-align: center;
-}
-.spaceTop{
-     padding-top: 20px;
- }
-
-.hklogo{
-    float: left;
-    height: 50px;
-    wide: 50px;
-}
-
-.places img{
-    height: 100px;
-    wide: 200px;
-    align-items: center;
-    justify-content: center;
-}
-.nav {
-    text-align: right;
-    padding: 30px;
 }
