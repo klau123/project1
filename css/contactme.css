@@ -1,0 +1,57 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: #2a2a2a;
+}
+.hklogo{
+    float: left;
+    height: 85px;
+    wide: 150px;
+    padding: 5px;
+.nav{
+    font-family: 'Risque', cursive;
+    float: right;
+
+.pagehead {
+    text-align: center;
+    align-items: center;
+}
+.container {
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    background-image: url("error404.png");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.bottom {
+    display: flex;
+}
+.bleft {
+    width: calc(33% - 20px);
+    background-color: cadetblue;
+}
+.bright {
+    width: calc(66% - 20px);
+    margin-left: 20px;
+    background-color: bisque;
+}
+.mylink {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.mylink img {
+    width: 60px;
+    align-items: center;
+}

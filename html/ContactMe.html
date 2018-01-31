@@ -15,7 +15,39 @@
     <a href="../html/CoolVideos.html" class="navlink">Cool Videos</a>
     <a href="../html/ContactMe.html" class="navlink">Contact Me</a>
 </div>
-<div class="title spaceTop">
     <h1 class="pagehead">Contact for Updates!</h1>
+        <div class="contactpara">
+            <p>I know this website is not fancy at all but it does have some useful information in it. If you have any suggestions for this page or any questions regarding to Hong Kong. Please fill in the form below and I will contact you as soon as possible.</p>
+        </div>
+    <div class="contacttable">
+        <form method="get">
+        <div>
+            <label for='firstname'>First Name:</label><input id="firstname" name="firstname" type="text">
+        </div>
+        <div>
+            <label for="lastname">Last Name:</label><input id="lastname" name="lastname" type="text">
+        </div>
+        <div>
+            <label for="email">Email:</label><input id="email" name="email" type="email">
+        </div>
+            <div>
+                <label for="Phone">Phone Number:</label><input id="phonenumber" name="phonenumber" type="tel">
+            </div>
+            <label for="textbox">Comment:</label> <textarea id="textbox" cols="30" rows="5"></textarea>
+            <p class="radiop">Please select your preferred contact method:</p>
+            <div>
+                <input type="radio" id="contactChoice1"
+                       name="contact" value="email">
+                <label for="contactChoice1">Email</label>
+
+                <input type="radio" id="contactChoice2"
+                       name="contact" value="phone">
+                <label for="contactChoice2">Phone</label>
+            </div>
+            <div class="contactbutton" >
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
